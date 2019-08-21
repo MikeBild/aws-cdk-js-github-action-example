@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "name": "@aws-cdk-js-github-action-example/infrastructure",
+  "version": "1.0.0",
+  "scripts": {
+    "deploy": "dotenv -- cdk deploy --require-approval never --app app.js AWSCDK-GH-ACTION-EXAMPLE-*",
+    "destroy": "dotenv -- cdk destroy --app app.js AWSCDK-GH-ACTION-EXAMPLE-*"
+  },
+  "devDependencies": {
+    "@aws-cdk/aws-lambda": "1.5.0",
+    "@aws-cdk/core": "1.5.0",
+    "aws-cdk": "^1.5.0",
+    "aws-sdk": "2.514.0",
+    "dotenv-cli": "2.0.1"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "name": "@aws-cdk-js-github-action-example/example-lambda",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "rimraf build && mkdir build && cp -R package.json build && npm install --production --prefix build && cp handler.js build",
+    "test": "dotenv -- node invoke"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.514.0",
+    "dotenv-cli": "2.0.1",
+    "rimraf": "3.0.0"
+  }
+}

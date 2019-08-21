@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "develop": "lerna run dev --stream",
+    "build": "lerna run build --stream",
+    "test": "lerna run test --stream",
+    "deploy": "lerna run deploy --stream",
+    "destroy": "lerna run destroy --stream"
+  },
+  "devDependencies": {
+    "lerna": "^3.15.0"
+  }
+}
