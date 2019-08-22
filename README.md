@@ -24,5 +24,5 @@ yarn deploy
 ## manually **AWS Destroy**
 
 ```bash
-yarn destory
+yarn destroy
 ```
