@@ -16,13 +16,13 @@ yarn bootstrap
 yarn build
 ```
 
-## manually AWS Deploy
+## **manually** AWS Deploy
 
 ```bash
 yarn deploy
 ```
 
-## manually **AWS Destroy**
+## **manually** AWS Destroy
 
 ```bash
 yarn destroy
