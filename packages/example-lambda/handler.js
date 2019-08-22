@@ -1,3 +1,3 @@
 module.exports.handle = async () => {
-  return { message: '@aws-cdk-js-github-action-example/example-lambda - Done!' }
+  return { message: `${process.env.AWS_LAMBDA_FUNCTION_NAME} - Done!` }
 }
