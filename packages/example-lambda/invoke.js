@@ -1,11 +1,13 @@
 const AWS = require('aws-sdk')
 const lambda = new AWS.Lambda()
+const dotenv = require('dotenv')
+const { STACK_NAME, STACK_ENV } = { ...dotenv.config().parsed }
 
-invokeLambda()
+main()
 
-async function invokeLambda() {
+async function main() {
   const { Payload, LogResult } = await lambda.invoke({
-    FunctionName: 'example-lambda-function',
+    FunctionName: `${STACK_NAME}-${STACK_ENV}-example-lambda-function`,
     InvocationType: 'RequestResponse',
     LogType: 'Tail',
     Payload: JSON.stringify({})

@@ -1,5 +1,8 @@
-name: CICD
-on: [push]
+name: CICD-Prod
+on:
+  push:
+    branches:
+      - master
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -31,3 +34,5 @@ jobs:
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         AWS_REGION: eu-central-1
         STACK_NAME: AWSCDK-GH-ACTION-EXAMPLE
+        STACK_ENV: PROD
+
