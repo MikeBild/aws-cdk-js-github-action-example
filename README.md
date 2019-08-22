@@ -1,7 +1,7 @@
 # Example AWS-CDK JavaScript GitHub Action
 
-![badge](https://github.com/MikeBild/aws-cdk-js-github-action-example/workflows/CICD-Prod/badge.svg)
-![badge](https://github.com/MikeBild/aws-cdk-js-github-action-example/workflows/CICD-Beta/badge.svg)
+![badge](https://github.com/MikeBild/aws-cdk-js-github-action-example/workflows/CICDProd/badge.svg)
+![badge](https://github.com/MikeBild/aws-cdk-js-github-action-example/workflows/CICDBeta/badge.svg)
 
 ## Setup
 

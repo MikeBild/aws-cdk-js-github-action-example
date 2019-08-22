@@ -1,4 +1,4 @@
-name: CICD-Prod
+name: CICDProd
 on:
   push:
     branches:
