@@ -7,7 +7,7 @@
     "test": "dotenv -- node invoke"
   },
   "devDependencies": {
-    "aws-sdk": "^2.514.0",
+    "aws-sdk": "^2.814.0",
     "dotenv-cli": "2.0.1",
     "rimraf": "3.0.0"
   }
