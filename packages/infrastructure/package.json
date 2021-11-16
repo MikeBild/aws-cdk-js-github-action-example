@@ -10,7 +10,7 @@
     "@aws-cdk/aws-lambda": "1.5.0",
     "@aws-cdk/core": "1.5.0",
     "aws-cdk": "^1.5.0",
-    "aws-sdk": "2.514.0",
+    "aws-sdk": "2.814.0",
     "dotenv-cli": "2.0.1"
   }
 }
